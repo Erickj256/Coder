@@ -1,0 +1,155 @@
+[2023-08-23 03:47:59,466] {processor.py:153} INFO - Started process (PID=176) to work on /opt/airflow/dags/primer_dag.py
+[2023-08-23 03:47:59,468] {processor.py:641} INFO - Processing file /opt/airflow/dags/primer_dag.py for tasks to queue
+[2023-08-23 03:47:59,470] {logging_mixin.py:115} INFO - [2023-08-23 03:47:59,470] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/primer_dag.py
+[2023-08-23 03:48:01,793] {processor.py:651} INFO - DAG(s) dict_keys(['CargaDatos']) retrieved from /opt/airflow/dags/primer_dag.py
+[2023-08-23 03:48:02,012] {logging_mixin.py:115} INFO - [2023-08-23 03:48:02,012] {manager.py:508} INFO - Created Permission View: can read on DAG:CargaDatos
+[2023-08-23 03:48:02,038] {logging_mixin.py:115} INFO - [2023-08-23 03:48:02,038] {manager.py:508} INFO - Created Permission View: can delete on DAG:CargaDatos
+[2023-08-23 03:48:02,064] {logging_mixin.py:115} INFO - [2023-08-23 03:48:02,063] {manager.py:508} INFO - Created Permission View: can edit on DAG:CargaDatos
+[2023-08-23 03:48:02,068] {logging_mixin.py:115} INFO - [2023-08-23 03:48:02,067] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-08-23 03:48:02,089] {logging_mixin.py:115} INFO - [2023-08-23 03:48:02,089] {dag.py:2439} INFO - Creating ORM DAG for CargaDatos
+[2023-08-23 03:48:02,122] {logging_mixin.py:115} INFO - [2023-08-23 03:48:02,122] {dag.py:2972} INFO - Setting next_dagrun for CargaDatos to 2023-08-20T00:00:00+00:00, run_after=2023-08-21T00:00:00+00:00
+[2023-08-23 03:48:02,169] {processor.py:161} INFO - Processing /opt/airflow/dags/primer_dag.py took 2.716 seconds
+[2023-08-23 03:48:12,331] {processor.py:153} INFO - Started process (PID=183) to work on /opt/airflow/dags/primer_dag.py
+[2023-08-23 03:48:12,334] {processor.py:641} INFO - Processing file /opt/airflow/dags/primer_dag.py for tasks to queue
+[2023-08-23 03:48:12,337] {logging_mixin.py:115} INFO - [2023-08-23 03:48:12,336] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/primer_dag.py
+[2023-08-23 03:48:13,332] {processor.py:651} INFO - DAG(s) dict_keys(['CargaDatos']) retrieved from /opt/airflow/dags/primer_dag.py
+[2023-08-23 03:48:13,362] {logging_mixin.py:115} INFO - [2023-08-23 03:48:13,360] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-08-23 03:48:13,415] {logging_mixin.py:115} INFO - [2023-08-23 03:48:13,414] {dag.py:2972} INFO - Setting next_dagrun for CargaDatos to 2023-08-20T00:00:00+00:00, run_after=2023-08-21T00:00:00+00:00
+[2023-08-23 03:48:13,457] {processor.py:161} INFO - Processing /opt/airflow/dags/primer_dag.py took 1.136 seconds
+[2023-08-23 03:48:23,584] {processor.py:153} INFO - Started process (PID=189) to work on /opt/airflow/dags/primer_dag.py
+[2023-08-23 03:48:23,586] {processor.py:641} INFO - Processing file /opt/airflow/dags/primer_dag.py for tasks to queue
+[2023-08-23 03:48:23,587] {logging_mixin.py:115} INFO - [2023-08-23 03:48:23,587] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/primer_dag.py
+[2023-08-23 03:48:24,422] {processor.py:651} INFO - DAG(s) dict_keys(['CargaDatos']) retrieved from /opt/airflow/dags/primer_dag.py
+[2023-08-23 03:48:24,443] {logging_mixin.py:115} INFO - [2023-08-23 03:48:24,442] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-08-23 03:48:24,481] {logging_mixin.py:115} INFO - [2023-08-23 03:48:24,481] {dag.py:2972} INFO - Setting next_dagrun for CargaDatos to 2023-08-20T00:00:00+00:00, run_after=2023-08-21T00:00:00+00:00
+[2023-08-23 03:48:24,509] {processor.py:161} INFO - Processing /opt/airflow/dags/primer_dag.py took 0.931 seconds
+[2023-08-23 03:48:34,618] {processor.py:153} INFO - Started process (PID=195) to work on /opt/airflow/dags/primer_dag.py
+[2023-08-23 03:48:34,620] {processor.py:641} INFO - Processing file /opt/airflow/dags/primer_dag.py for tasks to queue
+[2023-08-23 03:48:34,622] {logging_mixin.py:115} INFO - [2023-08-23 03:48:34,621] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/primer_dag.py
+[2023-08-23 03:48:35,362] {processor.py:651} INFO - DAG(s) dict_keys(['CargaDatos']) retrieved from /opt/airflow/dags/primer_dag.py
+[2023-08-23 03:48:35,403] {logging_mixin.py:115} INFO - [2023-08-23 03:48:35,402] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-08-23 03:48:35,441] {logging_mixin.py:115} INFO - [2023-08-23 03:48:35,441] {dag.py:2972} INFO - Setting next_dagrun for CargaDatos to 2023-08-20T00:00:00+00:00, run_after=2023-08-21T00:00:00+00:00
+[2023-08-23 03:48:35,466] {processor.py:161} INFO - Processing /opt/airflow/dags/primer_dag.py took 0.853 seconds
+[2023-08-23 03:48:45,639] {processor.py:153} INFO - Started process (PID=201) to work on /opt/airflow/dags/primer_dag.py
+[2023-08-23 03:48:45,641] {processor.py:641} INFO - Processing file /opt/airflow/dags/primer_dag.py for tasks to queue
+[2023-08-23 03:48:45,644] {logging_mixin.py:115} INFO - [2023-08-23 03:48:45,644] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/primer_dag.py
+[2023-08-23 03:48:46,437] {processor.py:651} INFO - DAG(s) dict_keys(['CargaDatos']) retrieved from /opt/airflow/dags/primer_dag.py
+[2023-08-23 03:48:46,471] {logging_mixin.py:115} INFO - [2023-08-23 03:48:46,470] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-08-23 03:48:46,516] {logging_mixin.py:115} INFO - [2023-08-23 03:48:46,516] {dag.py:2972} INFO - Setting next_dagrun for CargaDatos to 2023-08-20T00:00:00+00:00, run_after=2023-08-21T00:00:00+00:00
+[2023-08-23 03:48:46,550] {processor.py:161} INFO - Processing /opt/airflow/dags/primer_dag.py took 0.917 seconds
+[2023-08-23 03:48:56,668] {processor.py:153} INFO - Started process (PID=207) to work on /opt/airflow/dags/primer_dag.py
+[2023-08-23 03:48:56,671] {processor.py:641} INFO - Processing file /opt/airflow/dags/primer_dag.py for tasks to queue
+[2023-08-23 03:48:56,673] {logging_mixin.py:115} INFO - [2023-08-23 03:48:56,672] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/primer_dag.py
+[2023-08-23 03:48:57,495] {processor.py:651} INFO - DAG(s) dict_keys(['CargaDatos']) retrieved from /opt/airflow/dags/primer_dag.py
+[2023-08-23 03:48:57,538] {logging_mixin.py:115} INFO - [2023-08-23 03:48:57,537] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-08-23 03:48:57,587] {logging_mixin.py:115} INFO - [2023-08-23 03:48:57,586] {dag.py:2972} INFO - Setting next_dagrun for CargaDatos to 2023-08-20T00:00:00+00:00, run_after=2023-08-21T00:00:00+00:00
+[2023-08-23 03:48:57,618] {processor.py:161} INFO - Processing /opt/airflow/dags/primer_dag.py took 0.959 seconds
+[2023-08-23 03:49:07,938] {processor.py:153} INFO - Started process (PID=221) to work on /opt/airflow/dags/primer_dag.py
+[2023-08-23 03:49:07,943] {processor.py:641} INFO - Processing file /opt/airflow/dags/primer_dag.py for tasks to queue
+[2023-08-23 03:49:07,949] {logging_mixin.py:115} INFO - [2023-08-23 03:49:07,949] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/primer_dag.py
+[2023-08-23 03:49:11,182] {processor.py:651} INFO - DAG(s) dict_keys(['CargaDatos']) retrieved from /opt/airflow/dags/primer_dag.py
+[2023-08-23 03:49:11,227] {logging_mixin.py:115} INFO - [2023-08-23 03:49:11,226] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-08-23 03:49:11,273] {logging_mixin.py:115} INFO - [2023-08-23 03:49:11,272] {dag.py:2972} INFO - Setting next_dagrun for CargaDatos to 2023-08-23T00:00:00+00:00, run_after=2023-08-24T00:00:00+00:00
+[2023-08-23 03:49:11,307] {processor.py:161} INFO - Processing /opt/airflow/dags/primer_dag.py took 3.443 seconds
+[2023-08-23 03:49:21,425] {processor.py:153} INFO - Started process (PID=228) to work on /opt/airflow/dags/primer_dag.py
+[2023-08-23 03:49:21,427] {processor.py:641} INFO - Processing file /opt/airflow/dags/primer_dag.py for tasks to queue
+[2023-08-23 03:49:21,429] {logging_mixin.py:115} INFO - [2023-08-23 03:49:21,429] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/primer_dag.py
+[2023-08-23 03:49:22,226] {processor.py:651} INFO - DAG(s) dict_keys(['CargaDatos']) retrieved from /opt/airflow/dags/primer_dag.py
+[2023-08-23 03:49:22,279] {logging_mixin.py:115} INFO - [2023-08-23 03:49:22,278] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-08-23 03:49:22,328] {logging_mixin.py:115} INFO - [2023-08-23 03:49:22,328] {dag.py:2972} INFO - Setting next_dagrun for CargaDatos to 2023-08-23T00:00:00+00:00, run_after=2023-08-24T00:00:00+00:00
+[2023-08-23 03:49:22,362] {processor.py:161} INFO - Processing /opt/airflow/dags/primer_dag.py took 0.942 seconds
+[2023-08-23 03:49:32,493] {processor.py:153} INFO - Started process (PID=234) to work on /opt/airflow/dags/primer_dag.py
+[2023-08-23 03:49:32,495] {processor.py:641} INFO - Processing file /opt/airflow/dags/primer_dag.py for tasks to queue
+[2023-08-23 03:49:32,497] {logging_mixin.py:115} INFO - [2023-08-23 03:49:32,497] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/primer_dag.py
+[2023-08-23 03:49:33,426] {processor.py:651} INFO - DAG(s) dict_keys(['CargaDatos']) retrieved from /opt/airflow/dags/primer_dag.py
+[2023-08-23 03:49:33,470] {logging_mixin.py:115} INFO - [2023-08-23 03:49:33,469] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-08-23 03:49:33,511] {logging_mixin.py:115} INFO - [2023-08-23 03:49:33,511] {dag.py:2972} INFO - Setting next_dagrun for CargaDatos to 2023-08-23T00:00:00+00:00, run_after=2023-08-24T00:00:00+00:00
+[2023-08-23 03:49:33,541] {processor.py:161} INFO - Processing /opt/airflow/dags/primer_dag.py took 1.053 seconds
+[2023-08-23 03:49:43,665] {processor.py:153} INFO - Started process (PID=240) to work on /opt/airflow/dags/primer_dag.py
+[2023-08-23 03:49:43,668] {processor.py:641} INFO - Processing file /opt/airflow/dags/primer_dag.py for tasks to queue
+[2023-08-23 03:49:43,670] {logging_mixin.py:115} INFO - [2023-08-23 03:49:43,669] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/primer_dag.py
+[2023-08-23 03:49:44,489] {processor.py:651} INFO - DAG(s) dict_keys(['CargaDatos']) retrieved from /opt/airflow/dags/primer_dag.py
+[2023-08-23 03:49:44,529] {logging_mixin.py:115} INFO - [2023-08-23 03:49:44,528] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-08-23 03:49:44,572] {logging_mixin.py:115} INFO - [2023-08-23 03:49:44,572] {dag.py:2972} INFO - Setting next_dagrun for CargaDatos to 2023-08-23T00:00:00+00:00, run_after=2023-08-24T00:00:00+00:00
+[2023-08-23 03:49:44,613] {processor.py:161} INFO - Processing /opt/airflow/dags/primer_dag.py took 0.952 seconds
+[2023-08-23 03:49:54,741] {processor.py:153} INFO - Started process (PID=246) to work on /opt/airflow/dags/primer_dag.py
+[2023-08-23 03:49:54,742] {processor.py:641} INFO - Processing file /opt/airflow/dags/primer_dag.py for tasks to queue
+[2023-08-23 03:49:54,744] {logging_mixin.py:115} INFO - [2023-08-23 03:49:54,744] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/primer_dag.py
+[2023-08-23 03:49:56,024] {processor.py:651} INFO - DAG(s) dict_keys(['CargaDatos']) retrieved from /opt/airflow/dags/primer_dag.py
+[2023-08-23 03:49:56,062] {logging_mixin.py:115} INFO - [2023-08-23 03:49:56,062] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-08-23 03:49:56,116] {logging_mixin.py:115} INFO - [2023-08-23 03:49:56,116] {dag.py:2972} INFO - Setting next_dagrun for CargaDatos to 2023-08-23T00:00:00+00:00, run_after=2023-08-24T00:00:00+00:00
+[2023-08-23 03:49:56,143] {processor.py:161} INFO - Processing /opt/airflow/dags/primer_dag.py took 1.408 seconds
+[2023-08-23 03:50:06,261] {processor.py:153} INFO - Started process (PID=252) to work on /opt/airflow/dags/primer_dag.py
+[2023-08-23 03:50:06,263] {processor.py:641} INFO - Processing file /opt/airflow/dags/primer_dag.py for tasks to queue
+[2023-08-23 03:50:06,265] {logging_mixin.py:115} INFO - [2023-08-23 03:50:06,264] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/primer_dag.py
+[2023-08-23 03:50:07,041] {processor.py:651} INFO - DAG(s) dict_keys(['CargaDatos']) retrieved from /opt/airflow/dags/primer_dag.py
+[2023-08-23 03:50:07,093] {logging_mixin.py:115} INFO - [2023-08-23 03:50:07,092] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-08-23 03:50:07,160] {logging_mixin.py:115} INFO - [2023-08-23 03:50:07,159] {dag.py:2972} INFO - Setting next_dagrun for CargaDatos to 2023-08-23T00:00:00+00:00, run_after=2023-08-24T00:00:00+00:00
+[2023-08-23 03:50:07,198] {processor.py:161} INFO - Processing /opt/airflow/dags/primer_dag.py took 0.943 seconds
+[2023-08-23 03:50:17,361] {processor.py:153} INFO - Started process (PID=258) to work on /opt/airflow/dags/primer_dag.py
+[2023-08-23 03:50:17,363] {processor.py:641} INFO - Processing file /opt/airflow/dags/primer_dag.py for tasks to queue
+[2023-08-23 03:50:17,365] {logging_mixin.py:115} INFO - [2023-08-23 03:50:17,365] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/primer_dag.py
+[2023-08-23 03:50:18,335] {processor.py:651} INFO - DAG(s) dict_keys(['CargaDatos']) retrieved from /opt/airflow/dags/primer_dag.py
+[2023-08-23 03:50:18,377] {logging_mixin.py:115} INFO - [2023-08-23 03:50:18,376] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-08-23 03:50:18,440] {logging_mixin.py:115} INFO - [2023-08-23 03:50:18,440] {dag.py:2972} INFO - Setting next_dagrun for CargaDatos to 2023-08-23T00:00:00+00:00, run_after=2023-08-24T00:00:00+00:00
+[2023-08-23 03:50:18,468] {processor.py:161} INFO - Processing /opt/airflow/dags/primer_dag.py took 1.113 seconds
+[2023-08-23 03:50:28,593] {processor.py:153} INFO - Started process (PID=264) to work on /opt/airflow/dags/primer_dag.py
+[2023-08-23 03:50:28,596] {processor.py:641} INFO - Processing file /opt/airflow/dags/primer_dag.py for tasks to queue
+[2023-08-23 03:50:28,598] {logging_mixin.py:115} INFO - [2023-08-23 03:50:28,598] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/primer_dag.py
+[2023-08-23 03:50:29,297] {processor.py:651} INFO - DAG(s) dict_keys(['CargaDatos']) retrieved from /opt/airflow/dags/primer_dag.py
+[2023-08-23 03:50:29,335] {logging_mixin.py:115} INFO - [2023-08-23 03:50:29,334] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-08-23 03:50:29,416] {logging_mixin.py:115} INFO - [2023-08-23 03:50:29,415] {dag.py:2972} INFO - Setting next_dagrun for CargaDatos to 2023-08-23T00:00:00+00:00, run_after=2023-08-24T00:00:00+00:00
+[2023-08-23 03:50:29,459] {processor.py:161} INFO - Processing /opt/airflow/dags/primer_dag.py took 0.870 seconds
+[2023-08-23 03:50:39,607] {processor.py:153} INFO - Started process (PID=270) to work on /opt/airflow/dags/primer_dag.py
+[2023-08-23 03:50:39,609] {processor.py:641} INFO - Processing file /opt/airflow/dags/primer_dag.py for tasks to queue
+[2023-08-23 03:50:39,611] {logging_mixin.py:115} INFO - [2023-08-23 03:50:39,611] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/primer_dag.py
+[2023-08-23 03:50:40,635] {processor.py:651} INFO - DAG(s) dict_keys(['CargaDatos']) retrieved from /opt/airflow/dags/primer_dag.py
+[2023-08-23 03:50:40,675] {logging_mixin.py:115} INFO - [2023-08-23 03:50:40,674] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-08-23 03:50:40,719] {logging_mixin.py:115} INFO - [2023-08-23 03:50:40,718] {dag.py:2972} INFO - Setting next_dagrun for CargaDatos to 2023-08-23T00:00:00+00:00, run_after=2023-08-24T00:00:00+00:00
+[2023-08-23 03:50:40,749] {processor.py:161} INFO - Processing /opt/airflow/dags/primer_dag.py took 1.150 seconds
+[2023-08-23 03:50:50,880] {processor.py:153} INFO - Started process (PID=276) to work on /opt/airflow/dags/primer_dag.py
+[2023-08-23 03:50:50,882] {processor.py:641} INFO - Processing file /opt/airflow/dags/primer_dag.py for tasks to queue
+[2023-08-23 03:50:50,884] {logging_mixin.py:115} INFO - [2023-08-23 03:50:50,884] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/primer_dag.py
+[2023-08-23 03:50:51,730] {processor.py:651} INFO - DAG(s) dict_keys(['CargaDatos']) retrieved from /opt/airflow/dags/primer_dag.py
+[2023-08-23 03:50:51,769] {logging_mixin.py:115} INFO - [2023-08-23 03:50:51,769] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-08-23 03:50:51,812] {logging_mixin.py:115} INFO - [2023-08-23 03:50:51,812] {dag.py:2972} INFO - Setting next_dagrun for CargaDatos to 2023-08-23T00:00:00+00:00, run_after=2023-08-24T00:00:00+00:00
+[2023-08-23 03:50:51,852] {processor.py:161} INFO - Processing /opt/airflow/dags/primer_dag.py took 0.977 seconds
+[2023-08-23 03:51:01,970] {processor.py:153} INFO - Started process (PID=282) to work on /opt/airflow/dags/primer_dag.py
+[2023-08-23 03:51:01,972] {processor.py:641} INFO - Processing file /opt/airflow/dags/primer_dag.py for tasks to queue
+[2023-08-23 03:51:01,975] {logging_mixin.py:115} INFO - [2023-08-23 03:51:01,975] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/primer_dag.py
+[2023-08-23 03:51:02,829] {processor.py:651} INFO - DAG(s) dict_keys(['CargaDatos']) retrieved from /opt/airflow/dags/primer_dag.py
+[2023-08-23 03:51:02,888] {logging_mixin.py:115} INFO - [2023-08-23 03:51:02,887] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-08-23 03:51:02,939] {logging_mixin.py:115} INFO - [2023-08-23 03:51:02,939] {dag.py:2972} INFO - Setting next_dagrun for CargaDatos to 2023-08-23T00:00:00+00:00, run_after=2023-08-24T00:00:00+00:00
+[2023-08-23 03:51:02,967] {processor.py:161} INFO - Processing /opt/airflow/dags/primer_dag.py took 1.001 seconds
+[2023-08-23 03:51:13,449] {processor.py:153} INFO - Started process (PID=288) to work on /opt/airflow/dags/primer_dag.py
+[2023-08-23 03:51:13,451] {processor.py:641} INFO - Processing file /opt/airflow/dags/primer_dag.py for tasks to queue
+[2023-08-23 03:51:13,455] {logging_mixin.py:115} INFO - [2023-08-23 03:51:13,454] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/primer_dag.py
+[2023-08-23 03:51:15,832] {logging_mixin.py:115} WARNING - Exception ignored in: <function _collection_gced at 0x7f8058fa0950>
+[2023-08-23 03:51:15,833] {logging_mixin.py:115} WARNING - Traceback (most recent call last):
+[2023-08-23 03:51:15,834] {logging_mixin.py:115} WARNING -   File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/event/registry.py", line 53, in _collection_gced
+[2023-08-23 03:51:15,835] {logging_mixin.py:115} WARNING -     def _collection_gced(ref):
+[2023-08-23 03:51:15,836] {logging_mixin.py:115} WARNING -   File "/home/airflow/.local/lib/python3.7/site-packages/airflow/dag_processing/manager.py", line 463, in _exit_gracefully
+[2023-08-23 03:51:15,838] {logging_mixin.py:115} WARNING -     self.log.debug("Current Stacktrace is: %s", '\n'.join(map(str, inspect.stack())))
+[2023-08-23 03:51:15,839] {logging_mixin.py:115} WARNING -   File "/usr/local/lib/python3.7/inspect.py", line 1513, in stack
+[2023-08-23 03:51:15,840] {logging_mixin.py:115} WARNING -     return getouterframes(sys._getframe(1), context)
+[2023-08-23 03:51:15,841] {logging_mixin.py:115} WARNING -   File "/usr/local/lib/python3.7/inspect.py", line 1490, in getouterframes
+[2023-08-23 03:51:15,843] {logging_mixin.py:115} WARNING -     frameinfo = (frame,) + getframeinfo(frame, context)
+[2023-08-23 03:51:15,844] {logging_mixin.py:115} WARNING -   File "/usr/local/lib/python3.7/inspect.py", line 1464, in getframeinfo
+[2023-08-23 03:51:15,845] {logging_mixin.py:115} WARNING -     lines, lnum = findsource(frame)
+[2023-08-23 03:51:15,846] {logging_mixin.py:115} WARNING -   File "/usr/local/lib/python3.7/inspect.py", line 780, in findsource
+[2023-08-23 03:51:15,848] {logging_mixin.py:115} WARNING -     module = getmodule(object, file)
+[2023-08-23 03:51:15,849] {logging_mixin.py:115} WARNING -   File "/usr/local/lib/python3.7/inspect.py", line 742, in getmodule
+[2023-08-23 03:51:15,850] {logging_mixin.py:115} WARNING -     os.path.realpath(f)] = module.__name__
+[2023-08-23 03:51:15,851] {logging_mixin.py:115} WARNING -   File "/usr/local/lib/python3.7/posixpath.py", line 395, in realpath
+[2023-08-23 03:51:15,852] {logging_mixin.py:115} WARNING -     path, ok = _joinrealpath(filename[:0], filename, {})
+[2023-08-23 03:51:15,853] {logging_mixin.py:115} WARNING -   File "/usr/local/lib/python3.7/posixpath.py", line 429, in _joinrealpath
+[2023-08-23 03:51:15,855] {logging_mixin.py:115} WARNING -     if not islink(newpath):
+[2023-08-23 03:51:15,855] {logging_mixin.py:115} WARNING -   File "/usr/local/lib/python3.7/posixpath.py", line 171, in islink
+[2023-08-23 03:51:15,857] {logging_mixin.py:115} WARNING -     st = os.lstat(path)
+[2023-08-23 03:51:15,858] {logging_mixin.py:115} WARNING -   File "/home/airflow/.local/lib/python3.7/site-packages/airflow/dag_processing/manager.py", line 467, in _exit_gracefully
+[2023-08-23 03:51:15,860] {logging_mixin.py:115} WARNING -     sys.exit(os.EX_OK)
+[2023-08-23 03:51:15,861] {logging_mixin.py:115} WARNING - SystemExit: 0
+[2023-08-23 03:51:16,492] {processor.py:651} INFO - DAG(s) dict_keys(['CargaDatos']) retrieved from /opt/airflow/dags/primer_dag.py
+[2023-08-23 03:51:16,612] {logging_mixin.py:115} INFO - [2023-08-23 03:51:16,612] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-08-23 03:51:16,680] {logging_mixin.py:115} INFO - [2023-08-23 03:51:16,680] {dag.py:2972} INFO - Setting next_dagrun for CargaDatos to 2023-08-23T00:00:00+00:00, run_after=2023-08-24T00:00:00+00:00
+[2023-08-23 03:51:16,720] {processor.py:161} INFO - Processing /opt/airflow/dags/primer_dag.py took 3.308 seconds
