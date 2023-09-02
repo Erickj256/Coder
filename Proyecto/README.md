@@ -14,16 +14,17 @@ Hola a continuación te comparto los pasos para poder ejecutar de forma exitosa.
   
 * Paso 4: después necesitamos crear tres carpetas, las cuales crearemos ejecutando lo siguiente mkdir -p logs,plugins,dags, una vez hecho esto ejecutaremos la
   sentencia docker-compose up, en caso de que no te abra directamente, escribe localhost:8080/ en tu navegador y ya debarias ver la pagina de airflow que levantamos
-  la contraseña y el usuario son airflow, a continuacion realizamos un control + c para interrumpir la ejecucion de la pagina y pasamos al siguiente paso
+  la contraseña y el usuario son airflow, a continuacion realizamos un control + c para interrumpir la ejecucion de la pagina y pasamos al siguiente paso 
   
-* Paso 5: En la carpeta _dags_ colocaremos el archivo 001A.py el cual contiene nuestro dag y la funcion que ejecuta. volvemos a realizar un docker-compose up
-  y ya estara creado nuestro dag.
+* Paso 6: En la carpeta _dags_ colocaremos el archivo 001A.py el cual contiene nuestro dag y la funcion que ejecuta. volvemos a realizar un docker-compose up
+  y ya estara creado nuestro dag, una vez realizado esto, tendremos que crear nuestas variables las cuales tendran las credenciales correspondientes para realizar
+  la conexion a RS y los correos donde se enviara una confirmación de que los datos han sido cargados de forma adecuada.
   
-* Paso 6: Para ejecutar el Dag hay que darle en el icono de play y trigger dag, esto comenzara la ejecución. 
+* Paso 7: Para ejecutar el Dag hay que darle en el icono de play y trigger dag, esto comenzara la ejecución.
 
 *Nota3:* en la funcion creada, hay un parametro que debemos cambiar conforme a la ejecucion que se requiera, estos parametros que se cambian estan en la funcion 
 _call_api_ debemos de cambiarlo por las paginas que deseemos cargar puede ser desde cualquier cantidad de hojas. Aunque previamente la tabla que creamos ya esta poblada
-con las primeras 106 paginas. ejemplo deseamos cargar las hojas 108 a 110, por lo que deberiamos de ingresar (108,110).
+con las primeras 107 paginas. ejemplo deseamos cargar las hojas 108 a 110, por lo que deberiamos de ingresar (108,110).
 
 
 
