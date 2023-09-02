@@ -1,6 +1,7 @@
 Hola a continuación te comparto los pasos para poder ejecutar de forma exitosa. 
 
 *Nota:* Hay que asegurarnos de tener instalado Docker Desktop.
+
 *Nota2:* Hay que tener abierto docker desktop y verificar que tenga el estado Engine Running
 
 * Paso 1: Creamos una carpeta con el nombre que tu gustes, en este caso yo elegi Proyecto y colocar los archivos Dockerfile y requirements.txt que estan en esta carpeta
